@@ -1,0 +1,110 @@
+### Create student
+POST localhost:8080/student/create
+Content-Type: application/json
+
+{
+  "name": "Alish",
+  "surname": "Aliyev"
+}
+
+### Get all student
+GET localhost:8080/student/all
+
+### Get by id
+GET localhost:8080/student/dc68471c-4554-4ca7-a191-514a8660603a
+
+
+### Delete by id
+PUT localhost:8080/student/dc68471c-4554-4ca7-a191-514a8660603a
+Content-Type: application/json
+
+{
+  "name": "Alijon",
+  "surname": "Aliyevhon"
+}
+
+
+***************************************      book       ********************************************
+
+### Create book
+POST localhost:8080/book/create
+Content-Type: application/json
+
+{
+  "title": "run",
+  "author": "alish"
+  "publishYear": "2014"
+}
+
+
+
+### Get all student
+GET localhost:8080/book/all
+
+### Get by id
+GET localhost:8080/book/id
+
+
+### Delete by id
+PUT localhost:8080/book/id
+Content-Type: application/json
+
+{
+   "title": "run",
+   "author": "mazgi"
+   "publishYear": "2013"
+}
+
+*********************************  end  ******************************
+
+*********************************  Student  *********************************
+
+### Create book
+POST localhost:8080/book/create
+Content-Type: application/json
+
+{
+  "title": "run",
+  "author": "alish"
+  "publishYear": "2014"
+}
+
+
+
+### Get all student
+GET localhost:8080/book/all
+
+### Get by id
+GET localhost:8080/book/id
+
+
+### Delete by id
+PUT localhost:8080/book/id
+Content-Type: application/json
+
+{
+   "title": "run",
+   "author": "mazgi"
+   "publishYear": "2013"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
